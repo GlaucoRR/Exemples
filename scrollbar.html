@@ -1,0 +1,31 @@
+<!DOCTYPE>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Scroll Bar - html+css</title>
+		<style>
+			html::-webkit-scrollbar {
+				width:7px;
+				height:auto;
+				background: #FFF;
+			}
+			html::-webkit-scrollbar-thumb  {
+				background-color: #1B1B1B;
+				transition:all 0.5s;
+				border-radius: 5px;
+				width: 5px;
+			}
+			html::-webkit-scrollbar-track-piece {
+				background: #FFFFFF;
+			}
+			#exemple{height: 1500px;}
+			h1{font: 1.5em Arial, Helvetica, Sans-serif;}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="exemple"><h1>SCROLLBAR COM CSS</h1></div>
+	</body>
+</html>
